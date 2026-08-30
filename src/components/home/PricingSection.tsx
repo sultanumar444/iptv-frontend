@@ -103,7 +103,7 @@ export default function PricingSection() {
 
             <button
               type="button"
-              className="mt-8 flex items-center justify-center gap-2 rounded-lg bg-lime-400 px-6 py-4 font-bold text-black transition-colors hover:bg-lime-300"
+              className="mt-8 flex items-center justify-center gap-2 rounded-lg bg-violet-600 px-6 py-4 font-bold text-white transition-colors hover:bg-violet-500"
             >
               <MonitorIcon />
               BESTÄLL HÄR!

@@ -1,7 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function PageTitleBar({ title }: { title: string }) {
+export default function PageTitleBar({
+  title,
+  description,
+  ctaLabel,
+  ctaHref,
+  scrollHint,
+}: {
+  title: string;
+  description?: string;
+  /** Valfri CTA-knapp under texten. */
+  ctaLabel?: string;
+  ctaHref?: string;
+  /** Valfri rad under CTA-knappen, t.ex. en scroll-hint. */
+  scrollHint?: string;
+}) {
   return (
     <div className="relative overflow-hidden">
       <Image
@@ -14,13 +28,29 @@ export default function PageTitleBar({ title }: { title: string }) {
       <div className="absolute inset-0 bg-[#0a0e1a]/70" />
 
       <div className="relative mx-auto max-w-7xl px-6 py-24 text-center">
-        <h1 className="text-4xl font-bold sm:text-5xl">{title}</h1>
-        <p className="mt-3 text-white/70">
-          <Link href="/" className="hover:text-white hover:underline">
-            Hem
-          </Link>{" "}
-          / {title}
-        </p>
+        <div className="mx-auto w-full md:w-[65%]">
+          <h1 className="text-4xl leading-snug font-bold sm:text-5xl">{title}</h1>
+          <p className="mt-3 text-white/70">
+            <Link href="/" className="hover:text-white hover:underline">
+              Hem
+            </Link>{" "}
+            / {title}
+          </p>
+          {description && (
+            <p className="mt-5 text-white/80">{description}</p>
+          )}
+          {ctaLabel && ctaHref && (
+            <Link
+              href={ctaHref}
+              className="mt-6 inline-block rounded-lg bg-violet-600 px-8 py-4 font-semibold text-white transition-colors hover:bg-violet-500"
+            >
+              {ctaLabel}
+            </Link>
+          )}
+          {scrollHint && (
+            <p className="mt-4 text-sm text-white/60">{scrollHint}</p>
+          )}
+        </div>
       </div>
     </div>
   );

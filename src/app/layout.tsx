@@ -1,16 +1,21 @@
 import type { Metadata } from "next";
-import { Mulish } from "next/font/google";
+import { Sora } from "next/font/google";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import { siteName, siteUrl } from "@/lib/site";
 import "./globals.css";
 
-const mulish = Mulish({
-  variable: "--font-mulish",
+const sora = Sora({
+  variable: "--font-sora",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "SverigeIPTV",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: siteName,
+    template: `%s | ${siteName}`,
+  },
   description: "Bästa IPTV-tjänsten i Sverige",
 };
 
@@ -18,9 +23,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="sv"
-      className={`${mulish.variable} h-full antialiased`}
+      className={`${sora.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col" suppressHydrationWarning>
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

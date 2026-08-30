@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const quickLinks = [
-  { label: "DMCA", href: "#" },
-  { label: "Integritetspolicy", href: "#" },
-  { label: "Anvandarvillkor", href: "#" },
+  { label: "DMCA", href: "/dmca" },
+  { label: "Integritetspolicy", href: "/integritetspolicy" },
+  { label: "Anvandarvillkor", href: "/anvandarvillkor" },
 ];
 
 export default function Footer() {
@@ -31,9 +32,9 @@ export default function Footer() {
           <ul className="mt-6 space-y-4 text-sm text-white/70">
             {quickLinks.map((link) => (
               <li key={link.label}>
-                <a href={link.href} className="hover:text-white hover:underline">
+                <Link href={link.href} className="hover:text-white hover:underline">
                   {link.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

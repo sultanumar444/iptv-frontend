@@ -1,10 +1,19 @@
+import PageTitleBar from "@/components/PageTitleBar";
+import BlogCard from "@/components/blog/BlogCard";
+import { blogPosts } from "@/content/blog";
+
 export default function BloggarPage() {
   return (
-    <div className="mx-auto max-w-5xl px-6 py-16">
-      <h1 className="text-3xl font-bold">Bloggar</h1>
-      <p className="mt-4 text-white/70">
-        Här kommer blogginlägg att visas.
-      </p>
-    </div>
+    <>
+      <PageTitleBar title="Bloggar" />
+
+      <div className="mx-auto max-w-7xl px-6 py-16">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          {blogPosts.map((post) => (
+            <BlogCard key={post.slug} post={post} />
+          ))}
+        </div>
+      </div>
+    </>
   );
 }

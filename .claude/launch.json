@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "iptv-frontend",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
+      "runtimeExecutable": "/Users/sultan/.local/node/bin/node",
+      "runtimeArgs": ["--require=/Users/sultan/Desktop/iptv-frontend/.claude/preload-path.js", "/Users/sultan/Desktop/iptv-frontend/node_modules/next/dist/bin/next", "dev"],
       "port": 3000
     }
   ]
