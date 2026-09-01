@@ -108,6 +108,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Sport", "4K"],
+  faq: [
+    {
+      question: "Ingår speedway, F1 och MotoGP alla utan separata tilläggsabonnemang?",
+      answer: "Det beror på paketet, men ett komplett sportpaket kan täcka alla tre.",
+    },
+    {
+      question: "Kan jag se heat eller lopp i efterhand om jag missar dem live?",
+      answer: "Ja, Catch-Up TV gör sändningar tillgängliga upp till 30 dagar tillbaka.",
+    },
+    {
+      question: "Hur snabbt internet behöver jag för motorsport i 4K?",
+      answer: "Mellan 25 och 50 Mbit/s rekommenderas för en stabil 4K-upplevelse utan avbrott.",
+    },
+    {
+      question: "Fungerar tjänsten utomlands om jag följer ett race på resande fot?",
+      answer: "Det beror på tjänsten och eventuella geobegränsningar.",
+    },
+    {
+      question: "Täcker paketet både rallycross och traditionellt rally?",
+      answer: "Ja, World RX och WRC, inklusive Svenska Rallyt, täcks via de kanaler som ingår i sportpaketet.",
+    },
+  ],
   seo: {
     metaTitle: "Speedway & Motorsport Live 2026 Streaming",
     metaDescription: "Watch Speedway & Motorsport Live in 2026 on Sweden’s digital TV platform. Stream motorsport races and events online in HD quality.",

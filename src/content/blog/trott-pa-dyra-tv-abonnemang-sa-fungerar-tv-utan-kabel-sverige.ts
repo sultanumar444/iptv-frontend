@@ -173,6 +173,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Paket"],
+  faq: [
+    {
+      question: "Vad innebär TV Utan Kabel Sverige?",
+      answer: "Det innebär att TV-innehåll levereras via internet istället för traditionella kabelanslutningar.",
+    },
+    {
+      question: "Behöver jag en Smart TV?",
+      answer: "Nej. Du kan även använda andra kompatibla enheter såsom surfplattor, datorer eller streaming-enheter.",
+    },
+    {
+      question: "Kan jag titta på direktsänd sport?",
+      answer: "Ja, många moderna streaminglösningar erbjuder direktsända sportevenemang och annan live-underhållning.",
+    },
+    {
+      question: "Hur snabbt internet behöver jag?",
+      answer: "För HD-streaming rekommenderas vanligtvis minst 10–25 Mbps för en stabil upplevelse.",
+    },
+    {
+      question: "Är TV utan kabel framtidens sätt att titta på TV?",
+      answer: "Många hushåll väljer idag internetbaserade lösningar tack vare den flexibilitet och användarvänlighet de erbjuder.",
+    },
+  ],
   seo: {
     metaTitle: "TV Utan Kabel Sverige – Så Fungerar Det 2026",
     metaDescription: "Lär dig hur TV Utan Kabel Sverige fungerar och varför fler svenskar väljer flexibla TV-lösningar istället för kabel-TV.",

@@ -10,5 +10,5 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default function NineXtreamIptvGuidePage() {
-  return <AppleTvAppGuideView guide={guide} />;
+  return <AppleTvAppGuideView guide={guide} path="/installationsguider/apple-tv/9xtream-iptv" />;
 }

@@ -118,6 +118,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Familj", "Streaming"],
+  faq: [
+    {
+      question: "Vad är TV-streaming Sverige?",
+      answer: "Det är en modern lösning där TV-program och filmer streamas via internet istället för genom traditionella TV-anslutningar.",
+    },
+    {
+      question: "Kan jag titta på Svensk TV online från flera enheter?",
+      answer: "Ja, de flesta moderna streaminglösningar gör det möjligt att använda flera enheter inom samma hushåll.",
+    },
+    {
+      question: "Är ett TV-abonnemang online billigare?",
+      answer: "I många fall ja. Eftersom du endast betalar för de funktioner och det innehåll du behöver blir kostnaden ofta lägre.",
+    },
+    {
+      question: "Vad är skillnaden mellan Premium TV-streaming och vanlig streaming?",
+      answer: "Premium TV-streaming erbjuder vanligtvis högre bildkvalitet, fler funktioner och ett större innehållsutbud.",
+    },
+    {
+      question: "Vad innebär Nordisk TV-streaming?",
+      answer: "Det innebär tillgång till TV-innehåll från flera nordiska länder via en gemensam Skandinavisk streamingplattform.",
+    },
+  ],
   seo: {
     metaTitle: "Hur familjer sparar med TV-streaming i Sverige",
     metaDescription: "Spara pengar med modern TV-streaming i Sverige. Jämför smarta TV-lösningar, streama svenska TV-kanaler och njut av flexibel underhållning.",

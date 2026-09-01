@@ -119,6 +119,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Sport", "Jämförelse", "Paket", "Streaming"],
+  faq: [
+    {
+      question: "Vad är skillnaden mellan IPTV och Netflix i Sverige?",
+      answer: "IPTV erbjuder live-TV och kanaler i realtid, medan Netflix fokuserar på filmer och serier som du kan se när du vill (on-demand).",
+    },
+    {
+      question: "Är IPTV bättre än Viaplay för sport i Sverige?",
+      answer: "IPTV erbjuder ofta ett bredare sportutbud med internationella kanaler, medan Viaplay har specifika rättigheter till vissa ligor och evenemang.",
+    },
+    {
+      question: "Vilket är billigast – IPTV eller streamingtjänster?",
+      answer: "IPTV är ofta billigare eftersom det inkluderar kanaler, sport och filmer i ett paket, medan flera streamingtjänster kräver separata abonnemang.",
+    },
+    {
+      question: "Kan man använda IPTV och Netflix samtidigt?",
+      answer: "Ja, många användare i Sverige kombinerar IPTV med Netflix för att få både live-TV och exklusiva serier och filmer.",
+    },
+    {
+      question: "Vilket är bäst 2026 – IPTV eller streamingtjänster?",
+      answer: "Det beror på dina behov: IPTV är bäst för live-TV och sport, medan Netflix och Viaplay är bättre för filmer och serier. En kombination ger bäst resultat.",
+    },
+  ],
   seo: {
     metaTitle: "IPTV vs Netflix & Viaplay Sverige 2026 – Vilket är bäst?",
     metaDescription: "IPTV vs Netflix & Viaplay i Sverige 2026 – jämför pris, sport, kanaler och innehåll. Ta reda på vilket alternativ som passar dig bäst.",

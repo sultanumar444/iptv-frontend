@@ -166,6 +166,32 @@ const post: BlogPost = {
     },
   ],
   tags: ["Jämförelse"],
+  faq: [
+    {
+      question: "Do I need to cancel my cable subscription before switching to internet-based TV?",
+      answer: "No, you can try both in parallel and cancel cable later if needed.",
+    },
+    {
+      question: "Will internet-based TV work on my existing smart TV?",
+      answer: "Usually yes, most smart TVs from the last 5–7 years support it.",
+    },
+    {
+      question: "What internet speed do I need for a comparable experience to cable?",
+      answer: "10 Mbps is usually enough for Full HD and a cable-like experience.",
+    },
+    {
+      question: "Is the channel selection in internet-based TV as comprehensive as cable?",
+      answer: "It depends on the service, but internet-based TV can be as comprehensive as cable.",
+    },
+    {
+      question: "Can I keep my existing television when switching to internet-based TV?",
+      answer: "Yes, existing smart TVs are compatible and non-smart TVs can be connected via a streaming stick.",
+    },
+    {
+      question: "What is the main risk of switching from cable to internet-based TV?",
+      answer: "The main risk is dependence on internet, so an outage can stop TV service.",
+    },
+  ],
   seo: {
     metaTitle: "Why Is Internet-Based TV Better Than Traditional TV in 2026?",
     metaDescription: "Why is internet-based TV better than traditional TV? Discover the key differences, benefits, flexibility, content access, and viewing experience in 2026.",

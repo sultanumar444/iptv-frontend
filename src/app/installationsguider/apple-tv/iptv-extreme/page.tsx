@@ -10,5 +10,5 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default function IptvExtremeGuidePage() {
-  return <AppleTvAppGuideView guide={guide} />;
+  return <AppleTvAppGuideView guide={guide} path="/installationsguider/apple-tv/iptv-extreme" />;
 }

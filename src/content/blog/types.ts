@@ -24,6 +24,12 @@ export type BlogPost = {
   /** Ämnestaggar, visas på inlägget och används för SEO-nyckelord */
   tags: string[];
   /**
+   * Valfria vanliga frågor. Frågorna/svaren visas redan som vanliga
+   * avsnitt i `content` — det här fältet används bara för att generera
+   * FAQPage-strukturerad data (JSON-LD), så texten bör matcha ordagrant.
+   */
+  faq?: { question: string; answer: string }[];
+  /**
    * Valfria SEO-inställningar för inlägget. Allt är valfritt — om ett
    * fält utelämnas används title/excerpt/image/tags istället.
    */

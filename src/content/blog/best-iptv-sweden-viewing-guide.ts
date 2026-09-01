@@ -188,6 +188,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Enheter", "Streaming"],
+  faq: [
+    {
+      question: "What is IPTV?",
+      answer: "IPTV is a television delivery system that streams live channels and on-demand content through an internet connection instead of traditional cable or satellite broadcasting.",
+    },
+    {
+      question: "What should I look for when choosing an IPTV service?",
+      answer: "Look for stable streaming performance, extensive channel selection, Video on Demand, EPG support, multi-device compatibility, responsive customer support, and regular content updates.",
+    },
+    {
+      question: "Can IPTV be used on multiple devices?",
+      answer: "Yes. Most modern IPTV services support streaming on smart TVs, smartphones, tablets, computers, and other compatible devices, making it easy to watch content across different screens.",
+    },
+    {
+      question: "Why is EPG important in IPTV?",
+      answer: "An Electronic Program Guide helps users browse television schedules, discover upcoming programs, and navigate channels more efficiently, improving the overall viewing experience.",
+    },
+    {
+      question: "Is IPTV suitable for households in Sweden?",
+      answer: "Yes. With widespread high-speed internet availability, IPTV offers Swedish viewers flexible access to live television, movies, series, sports, and other entertainment on various devices.",
+    },
+  ],
   seo: {
     metaTitle: "Best IPTV Sweden Guide for Smart Streaming",
     metaDescription: "Learn how to choose the best IPTV Sweden service with key features, streaming tips, device support, and smart viewing advice for users.",

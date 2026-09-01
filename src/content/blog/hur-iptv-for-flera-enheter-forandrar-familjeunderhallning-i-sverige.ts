@@ -99,6 +99,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Enheter", "Familj"],
+  faq: [
+    {
+      question: "Vad innebär IPTV för flera enheter?",
+      answer: "IPTV för flera enheter innebär att du kan streama innehåll på flera skärmar samtidigt – perfekt för familjer där alla vill titta på olika program.",
+    },
+    {
+      question: "Är IPTV en bra lösning för familjer i Sverige?",
+      answer: "Ja, IPTV är idealiskt för familjer eftersom det erbjuder flexibilitet, stort innehållsutbud och möjligheten att använda flera enheter samtidigt.",
+    },
+    {
+      question: "Behöver jag speciell utrustning för IPTV?",
+      answer: "Nej, du kan använda vanliga enheter som Smart TV, mobil eller surfplatta tillsammans med en internetuppkoppling.",
+    },
+    {
+      question: "Hur påverkar IPTV familjeunderhållning?vv",
+      answer: "IPTV gör underhållning mer personlig och flexibel genom att låta varje familjemedlem välja vad de vill titta på – när de vill.",
+    },
+    {
+      question: "Är IPTV stabilt för streaming på flera enheter?",
+      answer: "Ja, med en stabil internetanslutning erbjuder tjänster som Sverige TV Original IPTV hög kvalitet utan buffering, även när flera enheter används samtidigt",
+    },
+  ],
   seo: {
     metaTitle: "Hur IPTV för flera enheter förändrar familjeunderhållning i Sverige",
     metaDescription: "Introduktion: En ny era av familjeunderhållning I dagens digitala värld vill varje familjemedlem ha friheten att titta på sitt favoritprogram – när som helst och var som helst. Traditionell TV har länge varit begränsad till en enda skärm, men med moderna lösningar som IPTV förändras detta snabbt. Med tjänster som Sverige TV Original IPTV kan",

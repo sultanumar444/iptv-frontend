@@ -143,6 +143,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Sport", "Streaming"],
+  faq: [
+    {
+      question: "Var sänds Europa League live i Sverige 2026?",
+      answer: "Disney har de exklusiva rättigheterna till UEFA Europa League och Conference League till och med säsongen 2026/27. Alla matcher går att streama där.",
+    },
+    {
+      question: "Behöver jag ett speciellt sportpaket för Europa League på Disney+?",
+      answer: "Nej. Matcherna ingår i det vanliga Disney-abonnemanget utan extra kostnad.",
+    },
+    {
+      question: "Kan jag se Europa League på flera enheter samtidigt?",
+      answer: "Det beror på vilket paket du har. Premium ger fler samtidiga strömmar än Standard. Kontrollera alltid villkoren för ditt abonnemang.",
+    },
+    {
+      question: "Finns det alternativ om jag vill ha mer än bara Europa League?",
+      answer: "Ja. Många tittare kombinerar eller väljer en bredare streamingtjänst som erbjuder ett stort antal livekanaler och on-demand-innehåll. Se paketen och kanalutbudet för mer information.",
+    },
+    {
+      question: "Vilken bildkvalitet kan jag förvänta mig?",
+      answer: "Disney erbjuder upp till 4K i Premiumpaketet. Andra streamingtjänster erbjuder ofta flera kvalitetsnivåer så att du kan anpassa efter din uppkoppling och skärm.",
+    },
+  ],
   seo: {
     metaTitle: "Var kan du se Europa League live i Sverige? TV & streamingguide",
     metaDescription: "Var kan man se Europa League live i Sverige? Se vilka TV-kanaler och streamingalternativ som visar matcherna online och på TV.",

@@ -141,6 +141,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Sport", "4K", "Prestanda"],
+  faq: [
+    {
+      question: "Varför växer Sverige TV så snabbt?",
+      answer: "Sverige TV växer tack vare bättre flexibilitet, större kanalutbud och möjlighet att streama på flera enheter.",
+    },
+    {
+      question: "Vad är skillnaden mellan IPTV och traditionell TV?",
+      answer: "IPTV använder internet för streaming medan traditionell TV är beroende av kabel eller satellit.",
+    },
+    {
+      question: "Är IPTV populärt i Sverige 2026?",
+      answer: "Ja, allt fler svenskar väljer IPTV på grund av dess flexibilitet och innehållsutbud.",
+    },
+    {
+      question: "Vad innebär bästa IPTV tjänst?",
+      answer: "Bästa IPTV erbjuder stabil streaming, HD/4K kvalitet, bra support och stort kanalutbud.",
+    },
+    {
+      question: "Kan jag använda IPTV på flera enheter?",
+      answer: "Ja, IPTV fungerar på Smart TV, mobil, surfplatta och andra streaming-enheter.",
+    },
+  ],
   seo: {
     metaTitle: "Sverige TV För Sportälskare 2026 – Se Live Matcher Utan Avbrott",
     metaDescription: "Se alla live matcher utan avbrott med Sverige TV. Upptäck bästa IPTV för sport i HD/4K och streama utan lagg 2026.",

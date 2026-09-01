@@ -154,6 +154,32 @@ const post: BlogPost = {
     },
   ],
   tags: ["IPTV"],
+  faq: [
+    {
+      question: "Can I watch both the handball and floorball world championships with the same subscription?",
+      answer: "Yes, a streaming service with the right sports channel package covers both tournaments.",
+    },
+    {
+      question: "Does the service cover all group stage matches or only the knockout rounds?",
+      answer: "A complete sports streaming service covers the full tournament.",
+    },
+    {
+      question: "How much data does a full handball match consume in Full HD?",
+      answer: "A sixty-minute handball match in 1080p consumes approximately 4 to 5 GB of data.",
+    },
+    {
+      question: "Can I watch on my phone if I cannot be at a television during a key match?",
+      answer: "Yes, modern streaming services deliver full quality on iOS and Android devices.",
+    },
+    {
+      question: "Are replays available if I miss a match live?",
+      answer: "Many platforms offer catch-up and full replays within 24 to 48 hours of the original broadcast.",
+    },
+    {
+      question: "Is there a minimum contract required?",
+      answer: "Reputable streaming services offer monthly subscriptions with no minimum commitment period.",
+    },
+  ],
   seo: {
     metaTitle: "Handball & Floorball World Championships 2026 Live Stream",
     metaDescription: "Stream every match from the 2026 Handball and Floorball World Championships live. Follow top international teams, championship battles, live scores, and tournament action.",

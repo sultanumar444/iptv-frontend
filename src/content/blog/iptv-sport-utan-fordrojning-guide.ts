@@ -146,6 +146,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Sport", "4K", "Prestanda", "Streaming"],
+  faq: [
+    {
+      question: "Vad är det viktigaste för att få en bra sportstreaming?",
+      answer: "En stabil internetanslutning, hög bildkvalitet och låg fördröjning är de viktigaste faktorerna för en bra tittarupplevelse.",
+    },
+    {
+      question: "Hur snabbt internet rekommenderas för HD-streaming?",
+      answer: "För HD-streaming rekommenderas vanligtvis minst 25 Mbps för en stabil och jämn uppspelning.",
+    },
+    {
+      question: "Kan jag titta på sport på flera olika enheter?",
+      answer: "Ja, de flesta moderna IPTV-lösningar fungerar på Smart TV, mobiltelefon, surfplatta och dator.",
+    },
+    {
+      question: "Varför uppstår buffring under direktsända matcher?",
+      answer: "Vanliga orsaker är långsam internetanslutning, överbelastat nätverk, äldre router eller enheter som behöver uppdateras.",
+    },
+    {
+      question: "Hur kan jag minska fördröjningen vid direktsänd sport?",
+      answer: "Använd en snabb internetanslutning, anslut enheten med nätverkskabel när det är möjligt, håll utrustningen uppdaterad och minimera annan nätverkstrafik under matchen.",
+    },
+  ],
   seo: {
     metaTitle: "IPTV-sport utan fördröjning | Guide",
     metaDescription: "Upptäck hur du får IPTV-sport utan fördröjning med stabil streaming, hög bildkvalitet och en bättre upplevelse för svenska tittare.",

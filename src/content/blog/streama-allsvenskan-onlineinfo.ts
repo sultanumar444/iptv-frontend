@@ -159,6 +159,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Sport"],
+  faq: [
+    {
+      question: "Vad betyder Streama Allsvenskan onlineinfo?",
+      answer: "Det syftar på information, guider och tips för att följa Allsvenskan via internetbaserade TV- och streaminglösningar.",
+    },
+    {
+      question: "Kan jag se Allsvenskan på en Smart TV?",
+      answer: "Ja, moderna Smart TV-apparater stöder vanligtvis olika typer av streamingtjänster och internetbaserat innehåll.",
+    },
+    {
+      question: "Vilken internethastighet rekommenderas för fotbollsstreaming?",
+      answer: "En stabil bredbandsanslutning rekommenderas för att minimera buffring och säkerställa god bildkvalitet.",
+    },
+    {
+      question: "Varför buffrar min stream under matchen?",
+      answer: "Vanliga orsaker är långsam internetanslutning, nätverksbelastning eller problem med den använda enheten.",
+    },
+    {
+      question: "Kan jag följa Allsvenskan på mobilen?",
+      answer: "Ja, de flesta moderna streamingplattformar fungerar på både smartphones och surfplattor.",
+    },
+  ],
   seo: {
     metaTitle: "Streama Allsvenskan Onlineinfo Guide 2026",
     metaDescription: "Lär dig allt om Streama Allsvenskan onlineinfo, matchförberedelser, internetkrav och bästa tipsen för en smidig tittarupplevelse.",

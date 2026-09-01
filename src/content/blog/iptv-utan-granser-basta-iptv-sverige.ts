@@ -100,6 +100,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Streaming"],
+  faq: [
+    {
+      question: "Vad är IPTV?",
+      answer: "IPTV är TV som levereras via internet istället för kabel eller satellit.",
+    },
+    {
+      question: "Kan jag använda IPTV utomlands?",
+      answer: "Ja, IPTV fungerar globalt så länge du har en internetanslutning.",
+    },
+    {
+      question: "Vilken hastighet behövs för IPTV?",
+      answer: "Minst 10–25 Mbps rekommenderas för stabil streaming.",
+    },
+    {
+      question: "Är IPTV bättre än streamingtjänster?",
+      answer: "IPTV erbjuder fler kanaler och live-TV, medan streamingtjänster fokuserar på on-demand.",
+    },
+    {
+      question: "Hur hittar jag bästa Sverige TV?",
+      answer: "Välj en tjänst med hög kvalitet, stabilitet och brett kanalutbud – som sverigeiptv.net/originaliptv.",
+    },
+  ],
   seo: {
     metaTitle: "IPTV utan gränser 2026 – Bästa Sverige TV för global streaming",
     metaDescription: "Upptäck hur IPTV utan gränser låter dig streama globalt innehåll var som helst 2026. Hitta bästa Sverige TV med tusentals kanaler och VOD.",

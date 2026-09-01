@@ -138,6 +138,32 @@ const post: BlogPost = {
     },
   ],
   tags: ["Sport", "Streaming"],
+  faq: [
+    {
+      question: "Kan jag se både F1 och MotoGP med samma abonnemang?",
+      answer: "Ja, en komplett online TV tjänst med rätt kanalpaket täcker båda serierna utan separata tillägg.",
+    },
+    {
+      question: "Täcker tjänsten alla sessioner under ett race-viikonloppu?",
+      answer: "Kontrollera kanalutbudet specifikt – seriösa tjänster inkluderar träningar, kvali och race.",
+    },
+    {
+      question: "Hur mycket data förbrukar ett F1-race i Full HD?",
+      answer: "Ungefär 3–4 GB per timme, ett komplett race tar 4–6 GB beroende på längd.",
+    },
+    {
+      question: "Kan jag se race i efterhand om jag missar livesändningen?",
+      answer: "Många tjänster erbjuder repriser och catch-up inom 24 till 48 timmar.",
+    },
+    {
+      question: "Fungerar tjänsten på alla mina enheter?",
+      answer: "Smart-TV, Android, iOS, Windows och Mac stöds av moderna streaming-tjänster.",
+    },
+    {
+      question: "Behöver jag ett årskontrakt?",
+      answer: "Seriösa online TV tjänster erbjuder månadsabonnemang utan bindningstid.",
+    },
+  ],
   seo: {
     metaTitle: "Formel 1 & MotoGP Live Streaming 2026",
     metaDescription: "Watch Formel 1 & MotoGP live streaming in 2026. Follow every race with Sweden's leading online TV platform for sports fans.",

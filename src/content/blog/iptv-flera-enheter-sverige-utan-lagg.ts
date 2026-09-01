@@ -154,6 +154,24 @@ const post: BlogPost = {
     },
   ],
   tags: ["Enheter", "Familj", "Prestanda"],
+  faq: [
+    {
+      question: "Kan man använda IPTV på flera enheter samtidigt?",
+      answer: "Ja, de flesta premium IPTV-tjänster erbjuder stöd för flera samtidiga anslutningar, vilket gör att hela familjen kan streama samtidigt.",
+    },
+    {
+      question: "Hur många enheter kan använda IPTV samtidigt?",
+      answer: "Det beror på abonnemanget. Vissa erbjuder 2–5 samtidiga streams, medan premiumtjänster kan stödja ännu fler.",
+    },
+    {
+      question: "Varför laggar IPTV när flera tittar samtidigt?",
+      answer: "Det beror oftast på begränsad bandbredd, svag WiFi-signal eller att IPTV-leverantören inte har tillräckligt starka servrar.",
+    },
+    {
+      question: "Är IPTV bättre än traditionell TV för familjer?",
+      answer: "Ja, IPTV ger mer flexibilitet eftersom varje familjemedlem kan titta på sitt eget innehåll på olika enheter.",
+    },
+  ],
   seo: {
     metaTitle: "IPTV flera enheter Sverige 2026 – Streama hela familjen utan lagg",
     metaDescription: "Upptäck hur du streamar IPTV på flera enheter samtidigt utan lagg. Komplett guide för stabil IPTV i svenska hushåll 2026.",

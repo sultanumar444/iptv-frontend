@@ -138,6 +138,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Installation", "Enheter", "Streaming"],
+  faq: [
+    {
+      question: "Vad är Live TV Sverige?",
+      answer: "Live TV Sverige syftar på internetbaserade TV-lösningar som gör det möjligt att se direktsända TV-kanaler via en internetanslutning på olika kompatibla enheter.",
+    },
+    {
+      question: "Vad betyder IPTV?",
+      answer: "IPTV står för Internet Protocol Television och är en teknik där TV-innehåll distribueras via internet istället för genom traditionella kabel- eller satellitnät.",
+    },
+    {
+      question: "Kan jag använda Sverige TV på flera enheter?",
+      answer: "Det beror på den specifika tjänstens funktioner och villkor. Många moderna lösningar erbjuder stöd för Smart TV, smartphones, surfplattor och datorer.",
+    },
+    {
+      question: "Hur förbättrar jag streamingkvaliteten?",
+      answer: "En stabil internetanslutning, en uppdaterad router och moderna enheter kan bidra till en bättre streamingupplevelse med färre avbrott.",
+    },
+    {
+      question: "Är Live TV bättre än traditionell TV?",
+      answer: "Det beror på användarens behov. Många uppskattar den flexibilitet och enhetskompatibilitet som internetbaserade TV-lösningar erbjuder.",
+    },
+  ],
   seo: {
     metaTitle: "Live TV Sverige 2026 | Sverige TV Guide",
     metaDescription: "Upptäck Live TV Sverige och Sverige TV 2026. Lär dig om streaming, enheter, funktioner och tips för en bättre TV-upplevelse.",

@@ -220,6 +220,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Sport", "4K", "Streaming"],
+  faq: [
+    {
+      question: "Vad är Sport Streaming Sverige?",
+      answer: "Sport Streaming Sverige är moderna internetbaserade streaminglösningar som gör det möjligt att se sport på flera olika enheter.",
+    },
+    {
+      question: "Varför blir sportstreaming allt mer populärt i Sverige?",
+      answer: "Flexibilitet, hög bildkvalitet, tillgänglighet och möjligheten att titta på flera enheter driver utvecklingen.",
+    },
+    {
+      question: "Kan jag titta på sport på flera enheter?",
+      answer: "Ja, de flesta moderna streamingplattformar fungerar på Smart TV, mobil, surfplatta och dator.",
+    },
+    {
+      question: "Vilka sporter är mest populära bland svenska tittare?",
+      answer: "Fotboll, ishockey, tennis, motorsport och internationella mästerskap är några av de mest populära kategorierna.",
+    },
+    {
+      question: "Hur ser framtiden ut för sportstreaming?",
+      answer: "Framtiden inkluderar AI-drivna rekommendationer, molnbaserad teknik, interaktiva funktioner och ännu bättre användarupplevelser.",
+    },
+  ],
   seo: {
     metaTitle: "Sport Streaming Sverige: Framtidens Livesport",
     metaDescription: "Upptäck hur Sport Streaming Sverige förändrar livesport med flexibel visning, HD-kvalitet och moderna funktioner.",

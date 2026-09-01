@@ -143,6 +143,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["4K", "Streaming"],
+  faq: [
+    {
+      question: "Kan jag titta på internationella TV-kanaler från Sverige?",
+      answer: "Ja, med en internetbaserad TV-lösning kan du få tillgång till ett stort antal internationella kanaler direkt via internet.",
+    },
+    {
+      question: "Behöver jag en smart-TV?",
+      answer: "Nej. Många tjänster fungerar även på dator, mobiltelefon och surfplatta.",
+    },
+    {
+      question: "Hur snabb internetanslutning behövs?",
+      answer: "En stabil bredbandsanslutning rekommenderas för att få hög bildkvalitet och minimera avbrott.",
+    },
+    {
+      question: "Kan jag se direktsända sportevenemang?",
+      answer: "Ja, många moderna TV-lösningar erbjuder direktsända internationella sportevenemang beroende på tillgängligt innehåll.",
+    },
+    {
+      question: "Är online-TV ett bra alternativ till traditionell kabel-TV?",
+      answer: "Ja, många användare väljer internetbaserade lösningar eftersom de erbjuder större flexibilitet, fler internationella kanaler och möjlighet att titta på flera olika enheter.",
+    },
+  ],
   seo: {
     metaTitle: "Titta på Internationella TV-kanaler Online",
     metaDescription: "Titta på internationella TV-kanaler online från Sverige med smidig streaming, hög bildkvalitet och enkel åtkomst till live-TV var du än är.",

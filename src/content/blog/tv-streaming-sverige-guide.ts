@@ -107,6 +107,24 @@ const post: BlogPost = {
     },
   ],
   tags: ["Enheter", "Streaming"],
+  faq: [
+    {
+      question: "Vilken internethastighet behöver jag för att streama TV i HD-kvalitet?",
+      answer: "Du behöver minst 10-15 Mbit/s för stabil HD-streaming och 25 Mbit/s eller mer för 4K-kvalitet.",
+    },
+    {
+      question: "Kan jag se svenska kanaler som SVT och TV4 via internet-baserad TV?",
+      answer: "Ja, de flesta tjänster inkluderar svenska kanaler och du kan också se dem via deras egna appar.",
+    },
+    {
+      question: "Fungerar TV-streaming utomlands när jag reser?",
+      answer: "Vissa tjänster fungerar utomlands men många begränsar tillgången på grund av licensavtal och geografiska rättigheter.",
+    },
+    {
+      question: "Behöver jag fortfarande traditionell antenn eller parabol för att se TV?",
+      answer: "Nej, internet-baserad TV kräver bara en stabil bredbandsuppkoppling utan antenn eller parabol.",
+    },
+  ],
   seo: {
     metaTitle: "TV Streaming Sverige Guide 2026 | Internet-TV för Alla",
     metaDescription: "Upptäck den kompletta TV Streaming Sverige Guiden 2026. Lär dig hur internet-baserad TV fungerar, vilka enheter som stöds och hur du väljer rätt lösning.",

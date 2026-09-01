@@ -282,6 +282,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["4K", "Smart TV", "Streaming"],
+  faq: [
+    {
+      question: "Vad är Smart TV Streaming Sverige?",
+      answer: "Smart TV Streaming Sverige gör det möjligt att streama TV-kanaler och on-demand-innehåll direkt via internet på en Smart TV.",
+    },
+    {
+      question: "Behöver Jag En Smart TV För Streaming?",
+      answer: "En Smart TV ger den bästa upplevelsen, men kompatibla streamingenheter kan också användas.",
+    },
+    {
+      question: "Kan Jag Titta På Live-TV?",
+      answer: "Ja, många streaminglösningar erbjuder både live-TV och on-demand-innehåll.",
+    },
+    {
+      question: "Är Smart TV Streaming Lämpligt För Familjer?",
+      answer: "Absolut. Det finns ett brett utbud av innehåll för olika åldrar och intressen.",
+    },
+    {
+      question: "Varför Väljer Allt Fler Svenskar Smart TV Streaming Sverige?",
+      answer: "Flexibilitet, större innehållsutbud, högre bekvämlighet och en bättre användarupplevelse är några av de främsta anledningarna.",
+    },
+  ],
   seo: {
     metaTitle: "Smart TV Streaming Sverige – Mer Innehåll, Mer Frihet, Bättre TV",
     metaDescription: "Upptäck hur Smart TV Streaming Sverige ger fler kanaler, flexibel tittning, bättre bildkvalitet och en modern TV-upplevelse för svenska hem.",

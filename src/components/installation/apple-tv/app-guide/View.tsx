@@ -21,19 +21,46 @@ import type { AppleTvAppGuide } from "@/content/apple-tv/apps";
  */
 export default function AppleTvAppGuideView({
   guide,
+  path,
 }: {
   guide: AppleTvAppGuide;
+  /** Sidans sökväg, t.ex. "/installationsguider/apple-tv/iptvx". Används för brödsmuls-schema och FAQ-schema. */
+  path?: string;
 }) {
   const hasSpecs = !!(guide.specsImage && guide.specs);
 
+  const faqSchema =
+    path && guide.faqSection
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: guide.faqSection.items.map((item) => ({
+            "@type": "Question",
+            name: item.question,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: item.answer,
+            },
+          })),
+        }
+      : null;
+
   return (
     <>
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       <PageTitleBar
         title={guide.pageTitle}
         description={guide.pageDescription}
         ctaLabel={guide.pageCtaLabel}
         ctaHref={guide.pageCtaHref}
         scrollHint={guide.pageScrollHint}
+        path={path}
       />
       {guide.topStepsSection && (
         <div className="pt-6 sm:pt-10">

@@ -104,6 +104,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Sport"],
+  faq: [
+    {
+      question: "Var kan svenska tittare se cykling live 2026?",
+      answer: "Digitala TV-streamingplattformar med svenska sändningsrättigheter täcker UCI WorldTour och Grand Tour-kalendern live.",
+    },
+    {
+      question: "Är Tour de France tillgängligt att streama live i Sverige?",
+      answer: "Ja, tjänster som täcker svenska sporträttigheter inkluderar livesändning av varje etapp under hela Touren.",
+    },
+    {
+      question: "Kan jag se triathlon-VM i efterhand om jag missar livesändningen?",
+      answer: "De flesta streamingplattformar arkiverar fullständiga tävlingssändningar för on-demand-visning efter att livefönstret stängt.",
+    },
+    {
+      question: "Fungerar digital TV-streaming på en smart-TV?",
+      answer: "Ja, moderna streamingplattformar har dedikerade smart-TV-appar som levererar högupplöst livesport på stor skärm.",
+    },
+    {
+      question: "Täcker ett abonnemang både cykling och triathlon?",
+      answer: "Ja, tjänster som täcker den svenska sportkalendern inkluderar båda disciplinerna under ett och samma abonnemang.",
+    },
+  ],
   seo: {
     metaTitle: "Triathlon & Cycling Live Streaming 2026",
     metaDescription: "Stream triathlon and cycling live in 2026 with Swedish digital TV. Watch endurance sports, global races, and major competitions online anywhere.",

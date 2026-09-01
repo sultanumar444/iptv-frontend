@@ -155,6 +155,32 @@ const post: BlogPost = {
     },
   ],
   tags: ["Sport", "4K", "Enheter", "Prestanda"],
+  faq: [
+    {
+      question: "Täcker tjänsten alla OS-grenar eller bara ett urval?",
+      answer: "Det beror på paketet, men en komplett tjänst täcker oftast alla OS-grenar.",
+    },
+    {
+      question: "Kan jag se skidskyttets Världscup och Vinter-OS med samma abonnemang?",
+      answer: "Ja, ett komplett sportpaket täcker båda med samma inloggning och utan separata tillägg.",
+    },
+    {
+      question: "Hur mycket internet behöver jag för att strömma OS i Full HD?",
+      answer: "10 Mbit/s nedladdningshastighet räcker för störningsfri Full HD-streaming av alla grenar.",
+    },
+    {
+      question: "Kan jag se tävlingar i efterhand om jag missar livesändningen?",
+      answer: "Många tjänster erbjuder repriser tillgängliga inom 24 till 48 timmar efter sändning.",
+    },
+    {
+      question: "Fungerar tjänsten på mobil under Världscup-helger?",
+      answer: "Ja, moderna streaming-tjänster levererar Full HD på iOS och Android utan extra kostnad.",
+    },
+    {
+      question: "Behöver jag ett årskontrakt?",
+      answer: "Seriösa digitala TV-tjänster erbjuder månadsabonnemang utan bindningstid.",
+    },
+  ],
   seo: {
     metaTitle: "Vinter-OS & Skidskytte Live | Digital TV",
     metaDescription: "Se Vinter-OS & Skidskytte live med stabil digital TV. Njut av vintersport i hög kvalitet på alla dina enheter.",

@@ -130,6 +130,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Sport"],
+  faq: [
+    {
+      question: "Are both tournaments included without a separate sports add-on?",
+      answer: "Yes, Viaplay Sport, TV4 Sport, Eurosport and Discovery Sport are bundled together in the full package.",
+    },
+    {
+      question: "Can I catch a match I missed because of the time difference?",
+      answer: "Yes, Catch-Up TV makes broadcasts available for up to 30 days after they aired live.",
+    },
+    {
+      question: "Does the service work if I’m travelling abroad this summer?",
+      answer: "Yes, it works globally with an internet connection, and a VPN with Swedish servers resolves any geographically restricted channels.",
+    },
+    {
+      question: "How many devices can stream at once?",
+      answer: "Several simultaneously, depending on the package chosen.",
+    },
+    {
+      question: "How quickly can I get set up before the tournaments start?",
+      answer: "Under five minutes from sign-up to live streaming, with no installation or hardware required.",
+    },
+  ],
   seo: {
     metaTitle: "World Cup & Copa America Live TV Sweden 2026",
     metaDescription: "America Live TV Sweden lets you follow World Cup and Copa America 2026 action live. Watch every match, goal, and highlight online.",

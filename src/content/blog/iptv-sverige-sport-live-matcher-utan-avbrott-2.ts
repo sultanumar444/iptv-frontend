@@ -134,6 +134,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Sport", "4K", "Prestanda"],
+  faq: [
+    {
+      question: "Är IPTV bra för att streama sport i Sverige?",
+      answer: "Ja, Sverige TV är ett av de bästa alternativen för att streama live sport med hög kvalitet och utan avbrott.",
+    },
+    {
+      question: "Hur undviker jag buffering under matcher?",
+      answer: "Använd stabil internetanslutning (minst 50 Mbps), rätt enhet och en pålitlig IPTV-tjänst.",
+    },
+    {
+      question: "Vilka sportkanaler finns på IPTV?",
+      answer: "De flesta IPTV-tjänster erbjuder svenska och internationella sportkanaler inklusive fotboll, hockey och mer.",
+    },
+    {
+      question: "Kan jag titta på sport i 4K med IPTV?",
+      answer: "Ja, bästa IPTV-tjänster erbjuder HD och 4K streaming beroende på kanal och internet hastighet.",
+    },
+    {
+      question: "Vilken är bästa IPTV för sport 2026?",
+      answer: "Den bästa IPTV-tjänsten erbjuder stabil streaming, brett sportutbud och snabb kundsupport.",
+    },
+  ],
   seo: {
     metaTitle: "Sverige TV För Sportälskare 2026 – Se Live Matcher Utan Avbrott",
     metaDescription: "Se alla live matcher utan avbrott med Sverige TV. Upptäck bästa IPTV för sport i HD/4K och streama utan lagg 2026.",

@@ -119,6 +119,32 @@ const post: BlogPost = {
     },
   ],
   tags: ["4K", "Streaming"],
+  faq: [
+    {
+      question: "What is the minimum internet speed needed for HD streaming in Sweden?",
+      answer: "A stable connection of at least 15 to 25 Mbit/s is recommended for Full HD streaming without interruptions.",
+    },
+    {
+      question: "Does WiFi affect streaming quality compared to a wired connection?",
+      answer: "Yes, a wired Ethernet connection is always more stable and consistent than WiFi for streaming devices in fixed locations.",
+    },
+    {
+      question: "How many Mbit/s do I need for 4K streaming?",
+      answer: "A stable connection of at least 50 Mbit/s is required, with 80 to 100 Mbit/s recommended when multiple devices are streaming simultaneously.",
+    },
+    {
+      question: "Why does my stream buffer even though my internet speed is fast?",
+      answer: "Buffering is often caused by WiFi interference, shared bandwidth across devices or high latency rather than insufficient download speed.",
+    },
+    {
+      question: "Does latency matter for streaming?",
+      answer: "Yes, especially for live streaming, where high latency can cause delays.",
+    },
+    {
+      question: "Can I improve streaming quality without upgrading my broadband subscription?",
+      answer: "Yes, Ethernet, better router placement and less background usage can improve it.",
+    },
+  ],
   seo: {
     metaTitle: "Internet Speed for TV Streaming 2026",
     metaDescription: "Learn how internet speed affects TV streaming quality. A practical guide for Swedish users to enjoy smooth HD and 4K streaming in 2026.",

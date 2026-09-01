@@ -150,6 +150,32 @@ const post: BlogPost = {
     },
   ],
   tags: ["Jämförelse", "4K"],
+  faq: [
+    {
+      question: "Behöver jag avsluta mitt kabelabonnemang innan jag byter till internet-baserad TV?",
+      answer: "Nej, du kan testa båda parallellt först.",
+    },
+    {
+      question: "Fungerar internet-baserad TV på min befintliga smart-TV?",
+      answer: "Ja, de flesta smart-TV:ar från de senaste åren stöds",
+    },
+    {
+      question: "Vilken internetstartighet behöver jag för en jämförbar upplevelse med kabel-TV?",
+      answer: "10 Mbit/s räcker oftast för Full HD.",
+    },
+    {
+      question: "Är kanalerbjudandet i internet-baserad TV lika heltäckande som kabel?",
+      answer: "Det beror på tjänsten, men utbudet kan vara mycket brett",
+    },
+    {
+      question: "Kan jag behålla min befintliga TV när jag byter till internet-baserad TV?",
+      answer: "Ja, befintliga smart-TV:ar är kompatibla och icke-smart-TV:ar kan anslutas via en streaming-enhet.",
+    },
+    {
+      question: "Vad är den största risken med att byta från kabel till internet-baserad TV?",
+      answer: "Största risken är att tjänsten slutar fungera om internet går ner",
+    },
+  ],
   seo: {
     metaTitle: "Internet-baserad TV vs traditionell TV 2026",
     metaDescription: "Internet-baserad TV bättre än traditionell TV? Se en komplett jämförelse av hastighet, kvalitet, kostnad och flexibilitet 2026.",

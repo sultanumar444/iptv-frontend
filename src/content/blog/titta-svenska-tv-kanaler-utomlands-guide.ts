@@ -152,6 +152,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Sport", "4K", "Utomlands", "Smart TV"],
+  faq: [
+    {
+      question: "Kan jag lagligt titta på svenska TV-kanaler utomlands?",
+      answer: "Det beror på metoden. Att använda officiella playtjänster inom de licenser som gäller är lagligt. IPTV-tjänster som levererar innehåll utan rättigheter kan befinna sig i en gråzon beroende på land. Kontrollera alltid villkoren och lokal lagstiftning. Många användare väljer IPTV för praktiska skäl när officiella alternativ inte räcker till.",
+    },
+    {
+      question: "Fungerar Sverige TV på alla enheter?",
+      answer: "Ja, de flesta moderna Smart TV, Android-boxar, Fire Stick, mobiltelefoner, datorer och dedikerade IPTV-boxar stöds. Leverantören ger vanligtvis tydliga installationsinstruktioner.",
+    },
+    {
+      question: "Behöver jag VPN tillsammans med Sverige TV?",
+      answer: "Oftast inte. En bra IPTV-tjänst levererar kanalerna direkt utan geo-blockering. VPN kan dock användas extra för integritet om du vill.",
+    },
+    {
+      question: "Hur stabil är 4K-streamingen?",
+      answer: "Stabiliteten beror på både tjänstens servrar och din egen internetuppkoppling. Med tillräcklig bandbredd och en bra tjänst får du oftast smidig 4K utan buffring.",
+    },
+    {
+      question: "Vad händer om jag får problem med installationen?",
+      answer: "Seriösa leverantörer erbjuder support via chatt eller e-post. Många hjälper till med installationen samma dag och ger tydliga guider för Smart TV och andra enheter.",
+    },
+  ],
   seo: {
     metaTitle: "Titta på svenska TV-kanaler utomlands – guide",
     metaDescription: "Komplett guide för expats: hur du ser svenska TV-kanaler utomlands med IPTV, VPN och streaming. Tips för Smart TV, 4K och sport.",

@@ -119,6 +119,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Sport", "4K", "Paket", "Prestanda"],
+  faq: [
+    {
+      question: "Vad är IPTV och hur fungerar det?",
+      answer: "IPTV är en teknik som låter dig streama TV-kanaler via internet istället för kabel eller satellit. Du kan titta på live-TV, sport och filmer direkt online.",
+    },
+    {
+      question: "Är IPTV lagligt i Sverige?",
+      answer: "IPTV är lagligt så länge du använder en seriös och pålitlig IPTV-leverantör som har rättigheter att distribuera innehållet.",
+    },
+    {
+      question: "Hur köper jag IPTV i Sverige?",
+      answer: "Du väljer en IPTV-leverantör, väljer ett abonnemang, installerar appen och börjar streama direkt på din enhet.",
+    },
+    {
+      question: "Vad ingår i ett IPTV abonnemang?",
+      answer: "Ett IPTV abonnemang innehåller vanligtvis: Live TV-kanaler Sport Filmer & serier HD / 4K kvalitet",
+    },
+    {
+      question: "Fungerar IPTV på alla enheter?",
+      answer: "Ja, IPTV fungerar på Smart TV, mobil, surfplatta och dator.",
+    },
+  ],
   seo: {
     metaTitle: "Köp Sverige TV 2026 – 45 000+ Kanaler, Sport & Filmer i HD/4K Utan Bindning",
     metaDescription: "Köp IPTV i Sverige 2026 och få tillgång till 45 000+ kanaler, sport och filmer i HD/4K. Snabb, stabil streaming utan bindning.",

@@ -171,6 +171,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Prestanda", "Streaming"],
+  faq: [
+    {
+      question: "Varför buffrar min IPTV bara under kvällstid?",
+      answer: "Under högtrafik belastar fler användare både ditt lokala nätverk och leverantörens servrar. ISP:er kan också prioritera annan trafik. Ethernet, större buffer och eventuellt VPN hjälper ofta.",
+    },
+    {
+      question: "Räcker 100 Mbit/s fiber för stabil IPTV?",
+      answer: "Ja, i de flesta fall. Problemet är sällan topphastigheten utan stabiliteten och Wi-Fi-kvaliteten. Testa alltid med kabel.",
+    },
+    {
+      question: "Hjälper VPN alltid mot buffering?",
+      answer: "Nej. Ibland ökar VPN latensen. Testa både med och utan. Välj servrar nära dig eller leverantörens servrar.",
+    },
+    {
+      question: "Vilken IPTV-app är bäst mot frysningar?",
+      answer: "TiviMate får ofta beröm för sin bufferthantering på Android-enheter. Testa flera och jämför.",
+    },
+    {
+      question: "När ska jag kontakta min IPTV-leverantör?",
+      answer: "Om problemet kvarstår efter att du testat Ethernet, omstart, bufferökning och DNS-byte. En bra iptv leverantör med svensk support kan byta server eller felsöka spellistan.",
+    },
+  ],
   seo: {
     metaTitle: "Svensk IPTV Buffering? 15 Sätt att Fixa Frysning",
     metaDescription: "Upplever du svensk IPTV buffering? Upptäck 15 beprövade sätt att fixa frysning och uppspelningsproblem för stabil streaming i Sverige.",

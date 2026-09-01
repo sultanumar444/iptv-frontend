@@ -130,6 +130,32 @@ const post: BlogPost = {
     },
   ],
   tags: ["Sport", "Streaming"],
+  faq: [
+    {
+      question: "Kan jag se Allsvenskan och SHL med samma abonnemang?",
+      answer: "Ja, en komplett digital TV-tjänst med rätt kanalpaket täcker båda ligorna utan separata tillägg.",
+    },
+    {
+      question: "Hur mycket internet behöver jag för Full HD-streaming?",
+      answer: "10 Mbit/s nedladdningshastighet räcker för störningsfri Full HD-stream.",
+    },
+    {
+      question: "Fungerar tjänsten på alla typer av enheter?",
+      answer: "Moderna streaming-tjänster stöder smart-TV, Android, iOS, Windows och Mac.",
+    },
+    {
+      question: "Kan jag se matcher i efterhand om jag missar livesändningen?",
+      answer: "Många tjänster erbjuder repriser och inspelningar tillgängliga inom 24 till 48 timmar.",
+    },
+    {
+      question: "Behöver jag ett årskontrakt?",
+      answer: "Nej, seriösa tjänster erbjuder månadsabonnemang utan bindningstid.",
+    },
+    {
+      question: "Är bild- och ljudkvaliteten samma på mobil som på TV?",
+      answer: "Ja, Full HD och ljud i hög kvalitet levereras till alla enheter oavsett skärmstorlek.",
+    },
+  ],
   seo: {
     metaTitle: "Allsvenskan & SHL Live Streaming 2026",
     metaDescription: "Se Allsvenskan och SHL live streaming 2026. Upptäck en komplett digital TV-tjänst för sport, flexibilitet och smidig streaming.",

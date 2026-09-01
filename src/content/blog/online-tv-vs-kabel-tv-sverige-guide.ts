@@ -111,6 +111,32 @@ const post: BlogPost = {
     },
   ],
   tags: ["Jämförelse", "4K", "Paket"],
+  faq: [
+    {
+      question: "Fungerar online TV lika bra som kabel-TV för livesport?",
+      answer: "Ja, på en välbyggd plattform med tillräcklig serverkapacitet är upplevelsen likvärdig för de flesta svenska tittare med stabil bredbåndsanslutning.",
+    },
+    {
+      question: "Behöver jag ny utrustning för att byta till online TV?",
+      answer: "Nej, de flesta moderna smart-TV-apparater stödjer streaming-appar direkt utan extra hårdvara.",
+    },
+    {
+      question: "Kan jag behålla public service-kanalerna om jag lämnar kabel-TV?",
+      answer: "Ja, SVT och andra public service-kanaler är tillgängliga via antenn och via sina egna streamingappar utan extra kostnad.",
+    },
+    {
+      question: "Är online TV billigare än kabel-TV i Sverige?",
+      answer: "Totalpriset beror på vilket innehåll du vill ha — för tittare som idag betalar för flera tilläggspaket är online TV ofta förmånligare.",
+    },
+    {
+      question: "Vad händer med bildkvaliteten om internetanslutningen tillfälligt försämras?",
+      answer: "Moderna streamingplattformar anpassar bildkvaliteten dynamiskt för att undvika avbrott, men en instabil anslutning påverkar upplevelsen mer än med kabel-TV.",
+    },
+    {
+      question: "Kan hela familjen titta på olika enheter samtidigt med ett online TV-abonnemang?",
+      answer: "Det beror på tjänstens villkor — de flesta plattformar tillåter ett begränsat antal simultana strömmar per abonnemang.",
+    },
+  ],
   seo: {
     metaTitle: "Online TV vs Kabel-TV Sverige – Bäst 2026 Val",
     metaDescription: "Jämför Online TV och Kabel-TV i Sverige. Upptäck vilket alternativ som ger bäst pris, kvalitet och flexibilitet för tittare år 2026.",

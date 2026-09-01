@@ -99,6 +99,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Sport", "4K", "Prestanda"],
+  faq: [
+    {
+      question: "Kan jag se Champions League live med IPTV?",
+      answer: "Ja, IPTV ger tillgång till kanaler som sänder Champions League live.",
+    },
+    {
+      question: "Är IPTV bra för live sport?",
+      answer: "Ja, särskilt med stabila servrar och hög kvalitet utan buffering.",
+    },
+    {
+      question: "Kan jag se Premier League i Sverige via IPTV?",
+      answer: "Ja, du kan enkelt streama Premier League matcher live.",
+    },
+    {
+      question: "Fungerar IPTV på Smart TV?",
+      answer: "Ja, det fungerar på Smart TV, mobil och flera andra enheter.",
+    },
+    {
+      question: "Hur undviker jag buffering?",
+      answer: "Välj en stabil IPTV-leverantör och ha minst 20 Mbps internet.",
+    },
+  ],
   seo: {
     metaTitle: "IPTV Sport Sverige 2026 – Streama sport utan buffering",
     metaDescription: "Streama fotboll, ishockey & Champions League live med IPTV i Sverige. Se sport i HD/4K utan buffering – komplett guide 2026.",

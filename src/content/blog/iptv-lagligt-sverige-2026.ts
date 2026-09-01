@@ -114,6 +114,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Paket", "Lagligt"],
+  faq: [
+    {
+      question: "Är IPTV lagligt i Sverige 2026?",
+      answer: "IPTV som teknik är laglig i Sverige, men det är olagligt att använda tjänster som saknar rättigheter till innehållet de streamar.",
+    },
+    {
+      question: "Kan man få böter för IPTV i Sverige?",
+      answer: "Ja, enligt nya lagförslag kan även användare av olagliga IPTV-tjänster få böter från och med 2026.",
+    },
+    {
+      question: "Hur vet jag om en IPTV-tjänst är laglig?",
+      answer: "En laglig IPTV-tjänst har licenser för sitt innehåll, tydlig företagsinformation och erbjuder kundsupport.",
+    },
+    {
+      question: "Vad är riskerna med olaglig IPTV?",
+      answer: "Riskerna inkluderar böter, säkerhetsproblem som virus samt att tjänsten kan stängas ner utan förvarning.",
+    },
+    {
+      question: "Är det säkert att köpa IPTV i Sverige?",
+      answer: "Ja, så länge du väljer en pålitlig och laglig IPTV-leverantör med licensierat innehåll och goda recensioner.",
+    },
+  ],
   seo: {
     metaTitle: "Är IPTV lagligt i Sverige 2026? Regler & risker du måste veta",
     metaDescription: "Är IPTV lagligt i Sverige 2026? Läs om regler, risker och hur du väljer en säker IPTV-tjänst utan juridiska problem.",

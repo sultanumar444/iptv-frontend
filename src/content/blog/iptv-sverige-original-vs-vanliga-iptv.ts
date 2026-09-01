@@ -127,6 +127,28 @@ const post: BlogPost = {
     },
   ],
   tags: ["Jämförelse", "4K", "Paket", "Prestanda"],
+  faq: [
+    {
+      question: "Är Sverige TV Original värt priset?",
+      answer: "Ja, du får bättre kvalitet, stabilitet och support.",
+    },
+    {
+      question: "Varför buffrar vanliga IPTV-tjänster?",
+      answer: "Ofta på grund av svaga servrar eller överbelastning.",
+    },
+    {
+      question: "Kan jag använda IPTV på Smart TV?",
+      answer: "Ja, de flesta tjänster stödjer Smart TV, Android och iOS.",
+    },
+    {
+      question: "Hur många kanaler får man?",
+      answer: "Vanligtvis över 40 000 kanaler och VOD-innehåll.",
+    },
+    {
+      question: "Är IPTV lagligt i Sverige?",
+      answer: "Det beror på leverantören och innehållsrättigheter.",
+    },
+  ],
   seo: {
     metaTitle: "Sverige TV Original vs Vanliga IPTV – Bäst 2026?",
     metaDescription: "Jämför Sverige TV Original vs vanliga IPTV tjänster 2026. Se skillnader i kvalitet, pris och stabilitet innan du väljer rätt.",
