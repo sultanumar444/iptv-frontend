@@ -42,7 +42,7 @@ export default function VartPaketPage() {
     <>
       <PageTitleBar title="Vårt paket" path="/vart-paket" />
 
-      <section className="mx-auto max-w-5xl px-6 py-16 text-center">
+      <section className="mx-auto max-w-5xl px-6 pt-16 pb-6 text-center">
         <h2 className="text-3xl font-bold sm:text-4xl">
           Streamingpaket från Sverige Streaming – Svensk streaming med
           fokus på kvalitet
