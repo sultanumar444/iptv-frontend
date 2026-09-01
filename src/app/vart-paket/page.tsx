@@ -42,6 +42,8 @@ export default function VartPaketPage() {
     <>
       <PageTitleBar title="Vårt paket" path="/vart-paket" />
 
+      <PricingSection />
+
       <section className="mx-auto max-w-5xl px-6 py-16 text-center">
         <h2 className="text-3xl font-bold sm:text-4xl">
           Streamingpaket från Sverige Streaming – Svensk streaming med
@@ -98,8 +100,6 @@ export default function VartPaketPage() {
           />
         </div>
       </section>
-
-      <PricingSection />
     </>
   );
 }
