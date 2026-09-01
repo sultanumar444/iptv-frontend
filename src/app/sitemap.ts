@@ -1,8 +1,39 @@
 import type { MetadataRoute } from "next";
-import { appleTvApps } from "@/content/apple-tv/guides";
 import { blogPosts } from "@/content/blog";
 import { deviceGuides } from "@/content/install-guides";
 import { siteUrl } from "@/lib/site";
+
+// `appleTvApps` in @/content/apple-tv/guides only lists the apps shown in
+// the Apple TV hub's recommended-apps grid, not every app with its own
+// dedicated page — so the sitemap can't be derived from it. This list
+// mirrors the folder names under src/app/installationsguider/apple-tv/.
+const appleTvAppSlugs = [
+  "9xtream-iptv",
+  "duplex-play",
+  "gse-smart-iptv-pro",
+  "hot-iptv",
+  "ibo-player",
+  "implayer-iptv",
+  "iplaytv",
+  "iptv-expert",
+  "iptv-extreme",
+  "iptv-pro",
+  "iptv-smarters",
+  "iptv-streamer",
+  "iptv-world",
+  "iptvx",
+  "mega-iptv",
+  "myiptv-player",
+  "mytvonline",
+  "net-iptv",
+  "perfect-iptv",
+  "set-iptv",
+  "smart-stb",
+  "televizo-iptv",
+  "tivimate",
+  "xtream-iptv",
+  "xui-iptv-player",
+];
 
 // kanallista och kontakta är medvetet uteslutna: de är satta till noindex
 // tills de har riktigt innehåll (se buildMetadata({ noindex: true }) i
@@ -53,8 +84,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
-  const appleTvAppEntries = appleTvApps.map((app) => ({
-    url: `${siteUrl}/installationsguider/apple-tv/${app.slug}`,
+  const appleTvAppEntries = appleTvAppSlugs.map((slug) => ({
+    url: `${siteUrl}/installationsguider/apple-tv/${slug}`,
     changeFrequency: "monthly" as const,
     priority: 0.4,
   }));
