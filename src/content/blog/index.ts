@@ -57,7 +57,7 @@ import hur_iptv_for_flera_enheter_forandrar_familjeunderhallning_i_sverige from 
 import iptv_utan_granser_basta_iptv_sverige from "./iptv-utan-granser-basta-iptv-sverige";
 import iptv_sport_sverige_2026 from "./iptv-sport-sverige-2026";
 import iptv_sverige_sport_live_matcher_utan_avbrott_2 from "./iptv-sverige-sport-live-matcher-utan-avbrott-2";
-import iptv_sverige_sport_live_matcher_utan_avbrott from "./iptv-sverige-sport-live-matcher-utan-avbrott";
+import hur_svenskar_konsumerar_tv_2026 from "./hur-svenskar-konsumerar-tv-2026";
 import iptv_sverige_original_vs_vanliga_iptv from "./iptv-sverige-original-vs-vanliga-iptv";
 import iptv_vs_netflix_viaplay_sverige from "./iptv-vs-netflix-viaplay-sverige";
 import iptv_lagligt_sverige_2026 from "./iptv-lagligt-sverige-2026";
@@ -111,7 +111,7 @@ const allPosts = [
   iptv_utan_granser_basta_iptv_sverige,
   iptv_sport_sverige_2026,
   iptv_sverige_sport_live_matcher_utan_avbrott_2,
-  iptv_sverige_sport_live_matcher_utan_avbrott,
+  hur_svenskar_konsumerar_tv_2026,
   iptv_sverige_original_vs_vanliga_iptv,
   iptv_vs_netflix_viaplay_sverige,
   iptv_lagligt_sverige_2026,

@@ -1,16 +1,16 @@
 import type { BlogPost } from "./types";
 
 const post: BlogPost = {
-  slug: "iptv-sverige-sport-live-matcher-utan-avbrott",
+  slug: "hur-svenskar-konsumerar-tv-2026",
   title: "Hur Svenskar Konsumerar TV 2026 – Varför Sverige TV Växer Snabbare än Någonsin",
-  excerpt: "Se alla live matcher utan avbrott med Sverige TV. Upptäck bästa IPTV för sport i HD/4K och streama utan lagg 2026.",
-  image: "/Hur-Svenskar-Konsumerar.webp",
+  excerpt: "TV-tittandet i Sverige förändras snabbt. Se varför allt fler svenskar väljer IPTV framför traditionell TV – mer flexibilitet, större kanalutbud och bättre streamingkvalitet.",
+  image: "/hur-svenskar-konsumerar-tv-2026.webp",
   date: "2026-04-21",
   readTime: "2 min läsning",
   intro: [
-    "TV-tittandet i Sverige har förändrats drastiskt de senaste åren. Traditionell kabel-TV tappar mark, medan [IPTV](/)Sverige växer i rekordfart.",
+    "TV-tittandet i Sverige har förändrats drastiskt de senaste åren. Traditionell kabel-TV tappar mark, medan [Sverige TV](/) växer i rekordfart.",
     "År 2026 ser vi en tydlig trend: – Svenskar vill ha frihet, flexibilitet och bättre innehåll",
-    "Det är här Sverige IPTV och moderna streaminglösningar tar över.",
+    "Det är här Sverige TV och moderna streaminglösningar tar över.",
   ],
   content: [
     {
@@ -106,7 +106,7 @@ const post: BlogPost = {
         "– Brett kanalutbud",
         "– HD/4K kvalitet",
         "– Bra support",
-        "Vill du uppleva framtidens TV redan idag? Besök: [https://sverigeiptv.net](/)",
+        "Vill du uppleva framtidens TV redan idag? Besök [Sverige TV](/).",
       ],
     },
     {
@@ -140,7 +140,7 @@ const post: BlogPost = {
       ],
     },
   ],
-  tags: ["Sport", "4K", "Prestanda"],
+  tags: ["Streaming", "Jämförelse", "4K"],
   faq: [
     {
       question: "Varför växer Sverige TV så snabbt?",
@@ -164,8 +164,8 @@ const post: BlogPost = {
     },
   ],
   seo: {
-    metaTitle: "Sverige TV För Sportälskare 2026 – Se Live Matcher Utan Avbrott",
-    metaDescription: "Se alla live matcher utan avbrott med Sverige TV. Upptäck bästa IPTV för sport i HD/4K och streama utan lagg 2026.",
+    metaTitle: "Hur svenskar konsumerar TV 2026 – Så växer IPTV i Sverige",
+    metaDescription: "TV-tittandet i Sverige förändras snabbt. Se varför allt fler svenskar väljer IPTV framför traditionell TV – mer flexibilitet, större kanalutbud och bättre streamingkvalitet.",
   },
 };
 
