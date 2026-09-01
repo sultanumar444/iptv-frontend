@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import PageTitleBar from "@/components/PageTitleBar";
 import ChromecastHubAppsGrid from "@/components/installation/chromecast/hub/AppsGrid";
 import ChromecastHubSteps from "@/components/installation/chromecast/hub/Steps";
@@ -8,11 +9,12 @@ import { chromecastSteps } from "@/content/chromecast/steps";
 import { chromecastDownloadStep } from "@/content/chromecast/download-step";
 import { chromecastSummaryStep } from "@/content/chromecast/summary-step";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Installationsguide – Chromecast",
   description:
     "IPTV Chromecast Instruktioner – Se vilka appar vi rekommenderar för Chromecast och kom igång på några minuter.",
-};
+  path: "/installationsguider/chromecast-instruktioner",
+});
 
 export default function ChromecastGuidePage() {
   const stepsBeforeDownload = chromecastSteps.filter(
@@ -32,6 +34,7 @@ export default function ChromecastGuidePage() {
       <PageTitleBar
         title="IPTV Chromecast Instruktioner"
         description="IPTV Chromecast Instruktioner – För att kunna se på IPTV med din Chromecast så behöver du ladda ned en IPTV app. Nedan ser du olika appar som fungerar med din Chromecast IPTV. Klicka på valfri app för att läsa hur man kommer igång. Det finns naturligtvis även andra appar som fungerar med din enhet men nedan finner du de som vi rekommenderar. Vi har listat apparna i ordning efter vilken vi anser vara enklast att komma igång med där bäst är först/högst upp."
+        path="/installationsguider/chromecast-instruktioner"
       />
 
       <section className="mx-auto max-w-7xl px-6 pt-4">

@@ -1,18 +1,23 @@
+import type { Metadata } from "next";
 import PageTitleBar from "@/components/PageTitleBar";
-import BlogCard from "@/components/blog/BlogCard";
+import BlogList from "@/components/blog/BlogList";
 import { blogPosts } from "@/content/blog";
+import { buildMetadata } from "@/lib/metadata";
+
+export const metadata: Metadata = buildMetadata({
+  title: "Bloggar",
+  description:
+    "Guider, nyheter och tips om IPTV, streaming och TV-paket i Sverige.",
+  path: "/bloggar",
+});
 
 export default function BloggarPage() {
   return (
     <>
-      <PageTitleBar title="Bloggar" />
+      <PageTitleBar title="Bloggar" path="/bloggar" />
 
       <div className="mx-auto max-w-7xl px-6 py-16">
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {blogPosts.map((post) => (
-            <BlogCard key={post.slug} post={post} />
-          ))}
-        </div>
+        <BlogList posts={blogPosts} />
       </div>
     </>
   );

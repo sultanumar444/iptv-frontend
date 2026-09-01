@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageTitleBar from "@/components/PageTitleBar";
 import { appleTvApps, getAppleTvApp } from "@/content/apple-tv/guides";
+import { buildMetadata } from "@/lib/metadata";
 
 /**
  * Fallback för appar som ännu inte har en egen sida (mapp) under
@@ -50,10 +51,11 @@ export async function generateMetadata({
 
   if (!app) return {};
 
-  return {
+  return buildMetadata({
     title: `${app.name} Instruktioner`,
     description: app.description,
-  };
+    path: `/installationsguider/apple-tv/${app.slug}`,
+  });
 }
 
 export default async function AppleTvAppComingSoonPage({
@@ -66,7 +68,10 @@ export default async function AppleTvAppComingSoonPage({
 
   return (
     <>
-      <PageTitleBar title={`${app.name} Instruktioner`} />
+      <PageTitleBar
+        title={`${app.name} Instruktioner`}
+        path={`/installationsguider/apple-tv/${app.slug}`}
+      />
 
       <div className="mx-auto max-w-3xl px-6 py-24 text-center">
         <p className="text-white/70">

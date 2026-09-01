@@ -8,6 +8,7 @@ import {
   genericInstallSteps,
   getDeviceGuide,
 } from "@/content/install-guides";
+import { buildMetadata } from "@/lib/metadata";
 
 export async function generateStaticParams() {
   return deviceGuides.map((device) => ({ slug: device.slug }));
@@ -21,10 +22,11 @@ export async function generateMetadata({
 
   if (!device) return {};
 
-  return {
+  return buildMetadata({
     title: `Installationsguide – ${device.name}`,
     description: device.description,
-  };
+    path: `/installationsguider/${device.slug}`,
+  });
 }
 
 export default async function DeviceGuidePage({
@@ -37,7 +39,10 @@ export default async function DeviceGuidePage({
 
   return (
     <>
-      <PageTitleBar title={`Installationsguide – ${device.name}`} />
+      <PageTitleBar
+        title={`Installationsguide – ${device.name}`}
+        path={`/installationsguider/${device.slug}`}
+      />
 
       <div className="mx-auto max-w-4xl px-6 py-16">
         <div className="flex items-center gap-6">

@@ -1,15 +1,17 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import PageTitleBar from "@/components/PageTitleBar";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "DMCA",
   description: "DMCA-policy för SverigeIPTV.",
-};
+  path: "/dmca",
+});
 
 export default function DmcaPage() {
   return (
     <>
-      <PageTitleBar title="DMCA" />
+      <PageTitleBar title="DMCA" path="/dmca" />
 
       <div className="mx-auto max-w-7xl px-6 py-16 text-white/80">
         <p>

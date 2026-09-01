@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import PageTitleBar from "@/components/PageTitleBar";
 import SmartTvHubInstructions from "@/components/installation/smart-tv/hub/Instructions";
 import SmartTvHubAppsGrid from "@/components/installation/smart-tv/hub/AppsGrid";
@@ -9,11 +10,12 @@ import { smartTvSteps } from "@/content/smart-tv/steps";
 import { smartTvDownloadStep } from "@/content/smart-tv/download-step";
 import { smartTvSummaryStep } from "@/content/smart-tv/summary-step";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Installationsguide – Smart TV",
   description:
     "IPTV med Smart TV Instruktioner. Se vilka appar vi rekommenderar för Smart TV och kom igång på några minuter.",
-};
+  path: "/installationsguider/smart-tv",
+});
 
 export default function SmartTvGuidePage() {
   const stepsBeforeDownload = smartTvSteps.filter(
@@ -28,7 +30,10 @@ export default function SmartTvGuidePage() {
 
   return (
     <>
-      <PageTitleBar title="Installationsguide – Smart TV" />
+      <PageTitleBar
+        title="Installationsguide – Smart TV"
+        path="/installationsguider/smart-tv"
+      />
       <SmartTvHubInstructions />
       <SmartTvHubAppsGrid />
       <SmartTvHubSteps steps={stepsBeforeDownload} />

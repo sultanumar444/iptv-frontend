@@ -1,9 +1,18 @@
+import type { Metadata } from "next";
 import PageTitleBar from "@/components/PageTitleBar";
+import { buildMetadata } from "@/lib/metadata";
+
+export const metadata: Metadata = buildMetadata({
+  title: "Om oss",
+  description:
+    "Läs mer om Sverige TV – en modern IPTV-plattform för enkel, flexibel streaming på alla dina enheter.",
+  path: "/om-oss",
+});
 
 export default function OmOssPage() {
   return (
     <>
-      <PageTitleBar title="Om oss" />
+      <PageTitleBar title="Om oss" path="/om-oss" />
 
       <div className="mx-auto max-w-7xl px-6 py-16 text-white/80">
         <p className="font-bold">Senast uppdaterad: 11 juni 2026</p>

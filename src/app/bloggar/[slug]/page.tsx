@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import PageTitleBar from "@/components/PageTitleBar";
 import BlogCard from "@/components/blog/BlogCard";
 import { TocDesktop, TocMobile } from "@/components/blog/TocSidebar";
+import parseInlineLinks from "@/components/installation/shared/parseInlineLinks";
 import { blogPosts, getBlogPost } from "@/content/blog";
 import { siteName, siteUrl } from "@/lib/site";
 import { slugify } from "@/lib/slugify";
@@ -108,7 +109,7 @@ export default async function BlogPostPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <PageTitleBar title={post.title} />
+      <PageTitleBar title={post.title} path={`/bloggar/${post.slug}`} />
 
       <div className="mx-auto max-w-6xl px-6 py-16 lg:grid lg:grid-cols-[1fr_300px] lg:items-start lg:gap-12">
         <article>
@@ -142,7 +143,7 @@ export default async function BlogPostPage({
 
           <div className="mt-8 space-y-5 text-white/80">
             {post.intro.map((paragraph, i) => (
-              <p key={i}>{paragraph}</p>
+              <p key={i}>{parseInlineLinks(paragraph)}</p>
             ))}
           </div>
 
@@ -161,7 +162,7 @@ export default async function BlogPostPage({
                 </h2>
                 <div className="mt-4 space-y-5 text-white/80">
                   {section.body.map((paragraph, i) => (
-                    <p key={i}>{paragraph}</p>
+                    <p key={i}>{parseInlineLinks(paragraph)}</p>
                   ))}
                 </div>
               </div>

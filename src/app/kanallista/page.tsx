@@ -1,3 +1,15 @@
+import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
+
+export const metadata: Metadata = buildMetadata({
+  title: "Kanallista",
+  description:
+    "Se vilka TV-kanaler som ingår i SverigeIPTV:s streamingpaket.",
+  path: "/kanallista",
+  // TODO: ta bort noindex när den riktiga kanallistan är på plats.
+  noindex: true,
+});
+
 export default function KanallistaPage() {
   return (
     <div className="mx-auto max-w-5xl px-6 py-16">

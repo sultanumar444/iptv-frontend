@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import PageTitleBar from "@/components/PageTitleBar";
 import AppleTvHubInstructions from "@/components/installation/apple-tv/hub/Instructions";
 import AppleTvHubAppsGrid from "@/components/installation/apple-tv/hub/AppsGrid";
@@ -9,11 +10,12 @@ import { appleTvSteps } from "@/content/apple-tv/steps";
 import { appleTvDownloadStep } from "@/content/apple-tv/download-step";
 import { appleTvSummaryStep } from "@/content/apple-tv/summary-step";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Installationsguide – Apple TV",
   description:
     "IPTV med Apple TV Instruktioner. Se vilka appar vi rekommenderar för Apple TV 4 och Apple TV gen 5 (4K) och kom igång på några minuter.",
-};
+  path: "/installationsguider/apple-tv",
+});
 
 export default function AppleTvGuidePage() {
   const stepsBeforeDownload = appleTvSteps.filter(
@@ -28,7 +30,10 @@ export default function AppleTvGuidePage() {
 
   return (
     <>
-      <PageTitleBar title="Installationsguide – Apple TV" />
+      <PageTitleBar
+        title="Installationsguide – Apple TV"
+        path="/installationsguider/apple-tv"
+      />
       <AppleTvHubInstructions />
       <AppleTvHubAppsGrid />
       <AppleTvHubSteps steps={stepsBeforeDownload} />

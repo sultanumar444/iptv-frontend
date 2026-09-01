@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import PageTitleBar from "@/components/PageTitleBar";
 import IosAndroidHubInstructions from "@/components/installation/ios-android/hub/Instructions";
 import IosAndroidHubAppsGrid from "@/components/installation/ios-android/hub/AppsGrid";
@@ -9,11 +10,12 @@ import { iosAndroidSteps } from "@/content/ios-android/steps";
 import { iosAndroidDownloadStep } from "@/content/ios-android/download-step";
 import { iosAndroidSummaryStep } from "@/content/ios-android/summary-step";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Installationsguide – iOS/Android",
   description:
     "IPTV med Mobilen eller Surfplattan. Se vilka appar vi rekommenderar för iPhone och Android och kom igång på några minuter.",
-};
+  path: "/installationsguider/ios-android",
+});
 
 export default function IosAndroidGuidePage() {
   const stepsBeforeDownload = iosAndroidSteps.filter(
@@ -30,7 +32,10 @@ export default function IosAndroidGuidePage() {
 
   return (
     <>
-      <PageTitleBar title="Installationsguide – iOS/Android" />
+      <PageTitleBar
+        title="Installationsguide – iOS/Android"
+        path="/installationsguider/ios-android"
+      />
       <IosAndroidHubInstructions />
       <IosAndroidHubAppsGrid />
       <IosAndroidHubSteps steps={stepsBeforeDownload} />

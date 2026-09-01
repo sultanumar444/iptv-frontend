@@ -1,6 +1,15 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import PageTitleBar from "@/components/PageTitleBar";
 import PricingSection from "@/components/home/PricingSection";
+import { buildMetadata } from "@/lib/metadata";
+
+export const metadata: Metadata = buildMetadata({
+  title: "Vårt paket",
+  description:
+    "Se SverigeIPTV:s streamingpaket – stabil och högkvalitativ streaming, säkra betalningar och ingen bindningstid.",
+  path: "/vart-paket",
+});
 
 const motto = [
   {
@@ -31,13 +40,13 @@ const motto = [
 export default function VartPaketPage() {
   return (
     <>
-      <PageTitleBar title="Vårt paket" />
+      <PageTitleBar title="Vårt paket" path="/vart-paket" />
 
       <section className="mx-auto max-w-5xl px-6 py-16 text-center">
-        <h1 className="text-3xl font-bold sm:text-4xl">
+        <h2 className="text-3xl font-bold sm:text-4xl">
           Streamingpaket från Sverige Streaming – Svensk streaming med
           fokus på kvalitet
-        </h1>
+        </h2>
         <p className="mt-3 text-sm font-semibold tracking-wide text-violet-400">
           – STABIL OCH HÖGKVALITATIV STREAMING FRÅN STREAMING SVERIGE –
         </p>
