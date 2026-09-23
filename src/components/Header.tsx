@@ -4,7 +4,11 @@ import HeaderNav from "./HeaderNav";
 
 function CartIcon() {
   return (
-    <div className="relative text-white">
+    <a
+      href="https://checkout.iptvsverige.com/"
+      aria-label="Kundvagn"
+      className="relative text-white"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
@@ -22,7 +26,7 @@ function CartIcon() {
       <span className="absolute -right-2 -top-2 flex h-4 w-4 items-center justify-center rounded-full bg-red-500 text-[10px] font-bold text-white">
         0
       </span>
-    </div>
+    </a>
   );
 }
 

@@ -9,10 +9,27 @@ const features = [
 ];
 
 const plans = [
-  { duration: "1 MÅNAD", price: "299kr" },
-  { duration: "3 MÅNADER", price: "499kr" },
-  { duration: "6 MÅNADER", price: "899kr" },
-  { duration: "12 MÅNADER", price: "1499kr", oldPrice: "1599kr" },
+  {
+    duration: "1 MÅNAD",
+    price: "299kr",
+    href: "https://checkout.iptvsverige.com/add/1?plan=1",
+  },
+  {
+    duration: "3 MÅNADER",
+    price: "499kr",
+    href: "https://checkout.iptvsverige.com/add/2?plan=5",
+  },
+  {
+    duration: "6 MÅNADER",
+    price: "899kr",
+    href: "https://checkout.iptvsverige.com/add/3?plan=6",
+  },
+  {
+    duration: "12 MÅNADER",
+    price: "1499kr",
+    oldPrice: "1599kr",
+    href: "https://checkout.iptvsverige.com/add/4?plan=7",
+  },
 ];
 
 function CheckIcon() {
@@ -101,13 +118,13 @@ export default function PricingSection() {
               ))}
             </ul>
 
-            <button
-              type="button"
+            <a
+              href={plan.href}
               className="mt-8 flex items-center justify-center gap-2 rounded-lg bg-violet-600 px-6 py-4 font-bold text-white transition-colors hover:bg-violet-500"
             >
               <MonitorIcon />
               BESTÄLL HÄR!
-            </button>
+            </a>
           </div>
         ))}
       </div>
